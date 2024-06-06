@@ -49,7 +49,6 @@ export function showLoader() {
 
 export function hideLoader() {
   console.log('-');
-  setTimeout(() => {
-    document.querySelector('.div-loader').classList.add('hidden');
-  },2000);
-}
+  document.querySelector('.div-loader').classList.add('hidden');
+  }
+  
